@@ -1,0 +1,71 @@
+.App {
+  justify-content: center;
+  align-self: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  height: 90px;
+  background: #21222a;
+  padding: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.nav-container > img {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.nav-container > h3 {
+  margin-right: auto;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: #61dafb;
+}
+
+.nav-container > h4 {
+  margin-right: 0;
+  color: #deebf8;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.main-container {
+  width: 550px;
+  height: 459px;
+  background: #282d35;
+  padding: 57px 27px;
+  color: white;
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./assets/Group2.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.main-container > h1 {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-container > ul {
+  margin-top: 36px;
+  max-width: 400px;
+}
+
+.list > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.list > li::marker {
+  font-size: 1.6rem;
+  color: #61dafb;
+}
